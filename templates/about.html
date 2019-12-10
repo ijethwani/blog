@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<div class="wrapper row2">
+  <div id="container" class="clear">
+
+    <div id="about-us" class="clear" align=center>
+      <div class="image-container">
+        <div class="video-wrapper">
+          <a class="popup-youtube" href="https://www.youtube.com/channel/UCq38RbX16Vk7ZbCtDTLboyw" data-effect="fadeIn">
+            <img class="img-fluid" src="{% static 'images/demo/video-frame.jpg' %}" alt="alternative">
+            <span class="video-play-button">
+              <span></span>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div class="two_fifth" align=center>
+        <h2>About Us</h2>
+        <p>This is a platform through which you can keep your talk on<br> many social, national, regional and
+          developmental issues.<br>
+          This platform will help you to spread your message to intellectuals<br>around the world. On this platform,
+          you have to<br> create a user id password after which you can share your talk with<br> the whole world.
+          Join now and enjoy reading and<br> sharing your content with others<br>
+        </p>
+        <p>This plate form gives you a good interface,<br>you can use this platform anywhere you want to <br>have your
+          information<br>
+          anytime and want to broadcast the news that is happening <br>around you or by you.
+        </p>
+        <h2>Our platforms</h2>
+        <ul>
+          <li><a href=" https://www.youtube.com/channel/UCq38RbX16Vk7ZbCtDTLboyw">Youtube</a></li>
+          <li><a href=" https://www.facebook.com/yogeshradhey.kumar">Facebook</a></li>
+          <li><a href=" https://www.instagram.com/yogeshradhey?r=nametag">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="team" align=center>
+      <h2>Our Team</h2>
+      <ul class="clear">
+        <li class="one_quarter first">
+          <div class="figure"><img src="{% static 'images/demo/founder1.jpg' %}" alt="" />
+            <div class="figcaption">
+              <h6 class="team_name">Yogesh Kumar</h6>
+              <h6 class="team_title">Founder</h6>
+              <p>Take Care Of Your Tongue Like The Way You Take Care Of Gold & Silver.</p>
+            </div>
+          </div>
+        </li>
+        <li class="one_quarter">
+          <div class="figure"><img src="{% static 'images/demo/founder2.jpg' %}" alt="" />
+            <div class="figcaption">
+              <h6 class="team_name">Radhasarveshwar</h6>
+              <h6 class="team_title">Co-Founder</h6>
+              <p>They were all brilliant. They wrote books and painted pictures, and if they ever stopped
+                talking,<br>which I was sure they would never do, they planned to change the world.</p>
+            </div>
+          </div>
+        </li>
+        <li class="one_quarter">
+          <div class="figure"><img src="{% static 'images/demo/founder3.jpg' %}" alt="" />
+            <div class="figcaption">
+              <h6 class="team_name">Ishwar Jethwani</h6>
+              <h6 class="team_title">Developer</h6>
+              <p>Thik creative, Do effective</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+</div>
+{% endblock content %}
